@@ -1,0 +1,7 @@
+applications:
+ - name: iot-hub-service-odata-shared-new-rawdata
+   memory: 64M
+   disk_quota: 128M
+   buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+   services:
+    - iot_hub_mongo_shared_new_rawdata
